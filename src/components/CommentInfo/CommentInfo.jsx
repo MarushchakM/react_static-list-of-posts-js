@@ -1,5 +1,5 @@
-export const CommentInfo = ({ comment }) => {
-  <>
+export const CommentInfo = ({ comment }) => (
+  <div className="CommentInfo">
     <div className="CommentInfo__title">
       <strong className="CommentInfo__name">{comment.name}</strong>
       by
@@ -8,5 +8,5 @@ export const CommentInfo = ({ comment }) => {
       </a>
     </div>
     <div className="CommentInfo__body">{comment.body}</div>
-  </>;
-};
+  </div>
+);
